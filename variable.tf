@@ -43,5 +43,12 @@ variable "enable_monitoring" {
 variable "ingress_portls_list" {
   description = "Lista de puertos"
   type = list(number)
+}
+
+variable "access_key" {
+  
+}
+
+variable "secret_key" {
   
 }
